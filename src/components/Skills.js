@@ -1,6 +1,11 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import javaLogo from "../assets/img/java-logo.png";
+import springLogo from "../assets/img/spring-boot-logo.png";
+import reactLogo from "../assets/img/React_logo_logotype_emblem (1).png";
+import mysqlLogo from "../assets/img/pngimg.com - mysql_PNG29.png";
+import mongoLogo from "../assets/img/logo-mongodb-png-mongodb-1600.png";
+import jsLogo from "../assets/img/javascript-logo-big.png";
+import nodeLogo from "../assets/img/nodejs.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -40,20 +45,32 @@ export const Skills = () => {
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="java" />
-                                <h5>Web Development</h5>
+                                <img src={javaLogo} alt="java" />
+                                <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="c++" />
-                                <h5>Brand Identity</h5>
+                                <img src={springLogo} alt="spring" />
+                                <h5>Spring-Boot</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="MySql" />
-                                <h5>Logo Design</h5>
+                                <img src={reactLogo} alt="react" />
+                                <h5>React JS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="MongoDB" />
-                                <h5>Web Development</h5>
+                                <img src={mysqlLogo} alt="SQl Databases" />
+                                <h5>SQL Databases</h5>
+                            </div>
+                            <div className="item">
+                                <img src={mongoLogo} alt="MongoDB" />
+                                <h5>NoSQL Database</h5>
+                            </div>
+                            <div className="item">
+                                <img src={jsLogo} alt="JS" />
+                                <h5>Java Script</h5>
+                            </div>
+                            <div className="item">
+                                <img src={nodeLogo} alt="Node JS" />
+                                <h5>Node JS</h5>
                             </div>
                         </Carousel>
                     </div>
